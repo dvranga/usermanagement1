@@ -1,0 +1,84 @@
+.body-panel{
+    height: 91%;
+    width: 100%;
+    background-color: #F5F6F9;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #5e6773;
+    display: flex;
+}
+
+.sidenav-pannel{
+    overflow: hidden;
+}
+.main-content{
+    width: 100%;
+    overflow: auto;
+    display: block;
+}
+
+.title {
+    height:12%;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d6e6;
+    display: flex;
+}
+.title-name {
+    color: #5e6773;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    font-weight: normal;
+    box-sizing: border-box;
+    width: 65%;
+}
+.title-link{
+    margin-left: -5%;
+    width: 35%;
+    padding: 2% 0%;
+    text-align: right;
+    float: left;
+}
+.tagline{
+    color:#a0aeba;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0%;
+}
+.home-icon{
+    color: #00AAFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.profile-pannel{
+    margin: 3%;
+    height:75%;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d6e6;
+    display: flex;
+}
+.profile-left{
+    background-color: #fcfcfc;
+    width: 35%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.profile-right{
+    background-color: #FFFFFF;
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+.profile-main{
+    position: relative;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family:  "Roboto",Sans-Serif;
+    font-size: 14px;
+    background-image: url("images/user_Profile.jpeg");
+}

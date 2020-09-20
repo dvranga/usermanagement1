@@ -1,0 +1,513 @@
+.body-panel{
+    height: 91%;
+    width: 100%;
+    display: flex;
+}
+.sidenav-pannel{
+    overflow: hidden;
+}
+.main-content{
+    width: 100%;
+    overflow: auto;
+}
+
+.title {
+    height:12%;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d6e6;
+    display: flex;
+}
+.title-name {
+    color: #5e6773;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    font-weight: normal;
+    box-sizing: border-box;
+    width: 65%;
+}
+.title-link{
+    margin-left: -5%;
+    width: 35%;
+    padding: 2% 0%;
+    text-align: right;
+    float: left;
+}
+.tagline{
+    color:#a0aeba;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0%;
+    padding-top: 0.5%;
+}
+.home-icon{
+    color: #00AAFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.widgets {
+    margin-top: 2%;
+    padding-right: 2%;
+    height: 90px;
+    display: flex;
+}
+
+
+
+
+
+.widget1{
+    border-radius: 3px;
+    width: 20%;
+    border: 1px solid #d1d6e6;
+    background: #FFFFFF;
+    margin-left: 2%;
+    float: left;
+    padding: 2%;
+    margin-left: 2%;
+}
+.widget-container {
+    height: 50px;
+    display: flex;
+    width: 180px;
+    padding:3% 2%;
+}
+.widget-left{
+    width: 35%;
+    float: left;
+}
+
+
+
+
+
+
+.widget-right {
+    display: block;
+    width: 50px;
+    padding-left: 3px;
+    float: left;
+    margin-left: -5px;
+    margin-top: -5px;
+    position: relative;
+}
+.icon-wrapper{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: -10px;
+}
+.status{
+    font-size: 12px;
+    color: #a0aeba;
+    font-weight: 700;
+}
+.status-value {
+    font-size: 24px;
+    color: #008fd6;
+    padding-top:5%;
+}
+
+
+
+
+.main-container {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    height: 85%;
+    width: 92.3%;
+}
+.graphic-container{
+    width: 71%;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d6e6;
+    display: block;
+}
+.registration-container{
+    margin-left: 70%;
+    margin-top: -44.5%;
+    width: 390px;
+    height: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d6e6;
+    display: block;
+}
+.graphic-header-pannel {
+    height: 4%;
+    border-bottom: 1px solid #eaeff2;
+    background-color: #f8f9fa;
+    color: #5e6773;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: Sans-Serif;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.registration-header-pannel{
+    height: 6%;
+    border-bottom: 1px solid #eaeff2;
+    background-color: #f8f9fa;
+    color: #5e6773;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Sans-Serif;
+    padding-top: 2%;
+    padding-left: 3%;
+    display: flex;
+}
+
+.load-more{
+    cursor: pointer;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+    margin-right: -100%;
+}
+.graphic-left{
+    width: 65%;
+    height: 100%;
+}
+
+.graphic-right{
+    width: 28%;
+    height: 100%;
+    padding-left: 1%;
+    border-left: 2px solid #eaeff2;
+    margin-left: 67%;
+    margin-top: -64%;
+}
+.location-section{
+    display: block;
+}
+.section-heading{
+    font-size: 15px;
+    padding: 5% 5%;
+    color: #5e6773;
+    font-weight: 550;
+    font-family: Sans-Serif;
+    margin-top: 0%;
+
+}
+.location-table{
+    margin-top: 0%;
+    width: 100%;
+    font-size: 20px;
+}
+.location-table-container td {
+    text-align: left;
+    padding: 2% 4%;
+    color: #5e6773;
+    font-size: 15px;
+}
+.locations-link{
+    color: #00a0f0;
+    padding: 5%;
+    font-size: 13px;
+    margin-top: -3%;
+}
+.gender-section{
+    display: block;
+}
+.gender-table{
+    margin-top: 2%;
+    width: 100%;
+    font-size: 20px;
+}
+.gender-table td {
+    text-align: left;
+    padding: 3% 4%;
+    color: #5e6773;
+    font-size: 15px;
+    width: 80%;
+}
+
+
+
+
+
+.footer{
+    height: 5%;
+}
+.age-section{
+    margin-top: 5%;
+}
+.registartion-box{
+    background-color: #1DBB8E;
+}
+.button-bar {
+
+    background-color: yellow;
+}
+.button {
+    background-color: #00a0f0;
+    color: white;
+}
+
+.column-header {
+    margin-top: 1%;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: 2%;
+}
+span{
+    margin-top: 10%;
+}
+.all-time{
+    margin-top: -1%;
+}
+
+
+
+
+
+ .latest-registation-table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #efeef2;
+     width: 365px;
+     height: 97px;
+}
+.latest-user-wrapper{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 4%;
+    padding: 15%;
+    font-size: 17px;
+    margin-top: -10px;
+    background-color: #f1f1f1;
+}
+.size-controller{
+    width: 200px;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.latest-user-name {
+    display: block;
+    width: 25%;
+    margin-left: -30%;
+    margin-top: 5%;
+}
+.latest-user-name{
+    font-size: 15px;
+    width: fit-content;
+}
+.latest-userName-status {
+    font-size: 12px;
+    color: #a0aeba;
+    width: fit-content;
+}
+div.overflow{
+    overflow-x: hidden;
+    width: 100%;
+    overflow-y: auto;
+    height: 93%;
+}
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+.alltimebuttons{
+    display: flex;
+    font-family: "Lato", sans-serif;
+}
+.button-alltime,.button-2020,.button-month{
+    color: white;
+    background-color: #5bc0de;
+    border-color: #4ebbdb;
+    outline-color: #4ebbdb;
+}
+.button-alltime{
+    width: 85px;
+    height: 30px;
+    margin-top: 40%;
+    margin-left: 25%;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.button-2020{
+    width: 85px;
+    height: 30px;
+    margin-top: 40%;
+    margin-left: 29.989%;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.button-month{
+    width: 85px;
+    height: 30px;
+    margin-top: 40%;
+    margin-left: 35%;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+
+
+
+.malepercent{
+    width: 150%;
+    background-color: #ddd;
+    border-radius:20px;
+}
+.maleprogressbar{
+    text-align: right;
+    color: rgba(32, 178, 170, 0.2);
+    border-radius:50px;
+    height: 5px;
+}
+
+.malehtmlstyle {width: 90%; background-color: #20B2AA;}
+
+.femalepercent{
+    width: 150%;
+    background-color: #ddd;
+    border-radius:20px;
+}
+.femaleprogressbar{
+    text-align: right;
+    color: rgba(32, 178, 170, 0.2);
+    border-radius:50px;
+    height: 5px;
+}
+.femalehtmlstyle {width: 30%; background-color:  #20B2AA;}
+
+.age-section {
+    margin-top: 5%;
+}
+
+.age-group{
+    color: #5e6a78;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 0px 25px;
+}
+
+.age-18{
+    width: 30%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.age-23{
+    width: 60%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.age-28{
+    width: 40%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.age-33{
+    width: 30%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+
+.age-38{
+    width: 40%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.age-42{
+    width: 150%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.age-under-18{
+    width: 10%;
+    height: 15px;
+    background-color: #ffde7b;
+}
+.graph-main{
+    display:block;
+}
+.graph-line{
+    display: block;
+    height: 208px;
+    width: 624px;
+}
+/*.canvas{*/
+/*    display: block;*/
+/*    width: 442px;*/
+/*    height: 324px;*/
+/*    margin-top: 30%;*/
+/*    margin-left: -85%;*/
+/*}*/
+.canvas{
+    display: block;
+    height: 430px;
+    width: 540px;
+    margin-left: 5px;
+}
+.canvasgraph{
+    display: block;
+    height: 400px;
+    width: 540px;
+    margin-top: 10%;
+}
+.enlarge-graph{
+}
+
+
+
+.age-18,  .age-23, .age-28, .age-33, .age-38, .age-42, .age-under-18  {
+    position: relative;
+    display: inline-block;
+}
+
+
+.age-18 .hover-age-18 , .age-23 .hover-age-23,  .age-28 .hover-age-28, .age-33 .hover-age-33, .age-38 .hover-age-38, .age-42 .hover-age-42, .age-under-18 .hover-age-under-18{
+    visibility: hidden;
+    width: 60px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.age-18 .hover-age-18::after, .age-23 .hover-age-23::after, .age-28 .hover-age-28::after, .age-33 .hover-age-33::after, .age-38 .hover-age-38::after, .age-42 .hover-age-42::after, .age-under-18 .hover-age-under-18::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+.age-18:hover .hover-age-18 ,.age-23:hover .hover-age-23, .age-28:hover .hover-age-28, .age-33:hover .hover-age-33, .age-38:hover .hover-age-38, .age-42:hover .hover-age-42, .age-under-18:hover .hover-age-under-18{
+    visibility: visible;
+    opacity: 1;
+}
